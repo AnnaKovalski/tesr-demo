@@ -1,0 +1,32 @@
+{
+  "name": "tesr-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaKovalski/tesr-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaKovalski/tesr-demo/issues"
+  },
+  "homepage": "https://github.com/AnnaKovalski/tesr-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.1",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "parcel-bundler": "^1.12.5"
+  }
+}

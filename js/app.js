@@ -1,3 +1,5 @@
-const newarr = [1, 2, 3, 4];
+const Joi = require("joi");
 
-console.log(newarr);
+const passwordShema = Joi.string().min(3).max(10).alphanum();
+
+console.log(passwordShema.validate("qklklk&"));
